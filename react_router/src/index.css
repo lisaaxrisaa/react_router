@@ -6,6 +6,7 @@ body,
 body > div {
   height: 100vh;
   width: 100vw;
+  background-image: url('https://i.pinimg.com/564x/f7/a0/84/f7a084e098549cbb73cfc03915e4a3a2.jpg');
 }
 #container {
   height: 100%;
@@ -15,7 +16,7 @@ body > div {
 #container > div {
   display: flex;
 }
-#navbar {
+.navbar {
   padding: 2em;
   justify-content: space-evenly;
 }
@@ -45,3 +46,23 @@ body > div {
 .emma {
   width: 60vw;
 }
+
+.links {
+  color: rgb(223, 160, 83);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 20px;
+  text-shadow: rgb(50, 40, 26) 1px 0 10px;
+}
+
+/* footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between the links */
+/* } */

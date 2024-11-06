@@ -6,6 +6,8 @@ import Blue from './components/Blue';
 import Home from './components/Home';
 import NavBar from './components/NavBar';
 import Emma from './components/Emma';
+import AutumnEmma from './components/AutumnEmma';
+import BedEmma from './components/BedEmma';
 
 function App() {
   return (
@@ -16,10 +18,16 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/emma" element={<Emma />} />
+            <Route path="/autumn-emma" element={<AutumnEmma />} />
+            <Route path="/bed-emma" element={<BedEmma />} />
             <Route path="/blue" element={<Blue />} />
             <Route path="/red" element={<Red />} />
           </Routes>
         </div>
+
+        <footer className="navbar">
+          <NavBar className="navbar" />
+        </footer>
       </div>
     </>
   );
