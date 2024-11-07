@@ -1,6 +1,5 @@
-import { useState } from 'react';
 import './App.css';
-import { Route, Routes, Link } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Red from './components/Red';
 import Blue from './components/Blue';
 import Home from './components/Home';
